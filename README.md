@@ -1,6 +1,10 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=2600&pause=700&color=0EA5E9&center=true&vCenter=true&width=720&height=60&lines=Full-Stack+AI+Engineer;LLM+%2F+Agent+Applications;Shipping+sub-2s+voice+agents" alt="Full-Stack AI Engineer — LLM / Agent Applications" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg" />
+  <img src="assets/header-dark.svg" width="900" alt="Full-Stack AI Engineer — LLM / Agent Applications · Shipping sub-2s voice agents" />
+</picture>
 
 <img src="https://img.shields.io/badge/Open%20to-New%20Grad%20SWE%20%2F%20Applied%20AI-16a34a?style=for-the-badge" alt="Open to work" />
 <img src="https://img.shields.io/badge/Boston-US%20relocation%20OK-1e40af?style=for-the-badge" alt="Location" />

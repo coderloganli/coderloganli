@@ -1,9 +1,53 @@
-"""Generate the career timeline SVG (light + dark) for the profile README."""
+"""Generate the README's SVG assets (header + career timeline), light and dark."""
 
 from html import escape
 from pathlib import Path
 
 W = 900
+FONT = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+
+THEMES = {
+    "dark": {
+        "text": "#e6edf3",
+        "muted": "#8b949e",
+        "faint": "#6e7681",
+        "accent": "#58a6ff",
+        "rail": "#30363d",
+        "pivot": "#3fb950",
+    },
+    "light": {
+        "text": "#1f2328",
+        "muted": "#59636e",
+        "faint": "#818b98",
+        "accent": "#0969da",
+        "rail": "#d1d9e0",
+        "pivot": "#1a7f37",
+    },
+}
+
+
+# --------------------------------------------------------------------------- header
+
+HEADLINE = "Full-Stack AI Engineer"
+SUBLINE = "LLM / Agent Applications   ·   Shipping sub-2s voice agents"
+
+
+def build_header(c):
+    mid = W // 2
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="112" \
+viewBox="0 0 {W} 112" font-family="{FONT}" role="img" \
+aria-label="{escape(HEADLINE)} — {escape(SUBLINE)}">
+<text x="{mid}" y="46" text-anchor="middle" font-size="34" font-weight="800" \
+letter-spacing="-0.5" fill="{c['accent']}">{escape(HEADLINE)}</text>
+<line x1="{mid - 60}" y1="66" x2="{mid + 60}" y2="66" stroke="{c['rail']}" stroke-width="2"/>
+<text x="{mid}" y="92" text-anchor="middle" font-size="15" font-weight="500" \
+letter-spacing="0.6" fill="{c['muted']}">{escape(SUBLINE)}</text>
+</svg>
+"""
+
+
+# ------------------------------------------------------------------------- timeline
+
 RAIL_X = 70
 DOT_R = 6.5
 TEXT_X = 104
@@ -46,56 +90,28 @@ ENTRIES = [
     },
 ]
 
-THEMES = {
-    "dark": {
-        "text": "#e6edf3",
-        "muted": "#8b949e",
-        "faint": "#6e7681",
-        "accent": "#58a6ff",
-        "rail": "#30363d",
-        "pivot": "#3fb950",
-        "chip_text": "#3fb950",
-    },
-    "light": {
-        "text": "#1f2328",
-        "muted": "#59636e",
-        "faint": "#818b98",
-        "accent": "#0969da",
-        "rail": "#d1d9e0",
-        "pivot": "#1a7f37",
-        "chip_text": "#1a7f37",
-    },
-}
 
-FONT = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-
-
-def build(theme_name):
-    c = THEMES[theme_name]
-    out = []
-    y = 26
-    dots = []
+def build_timeline(c):
+    body, dots, y = [], [], 26
 
     for e in ENTRIES:
-        dot_y = y + 8
-        dots.append((dot_y, e["pivot"]))
+        dots.append((y + 8, e["pivot"]))
         colour = c["pivot"] if e["pivot"] else c["accent"]
 
-        out.append(
+        body.append(
             f'<text x="{TEXT_X}" y="{y + 12}" font-size="11.5" font-weight="600" '
             f'letter-spacing="1.2" fill="{colour}">{escape(e["date"])}</text>'
         )
         if e["pivot"]:
-            out.append(
+            body.append(
                 f'<text x="{TEXT_X + 118}" y="{y + 12}" font-size="11.5" font-weight="600" '
-                f'letter-spacing="0.6" fill="{c["chip_text"]}">◆ CAREER PIVOT</text>'
+                f'letter-spacing="0.6" fill="{c["pivot"]}">◆ CAREER PIVOT</text>'
             )
-
-        out.append(
+        body.append(
             f'<text x="{TEXT_X}" y="{y + 38}" font-size="18.5" font-weight="700" '
             f'fill="{c["text"]}">{escape(e["org"])}</text>'
         )
-        out.append(
+        body.append(
             f'<text x="{TEXT_X}" y="{y + 59}" font-size="13.5" '
             f'fill="{c["muted"]}">{escape(e["role"])}</text>'
         )
@@ -103,7 +119,7 @@ def build(theme_name):
         ly = y + 84
         for line in e["lines"]:
             if line:
-                out.append(
+                body.append(
                     f'<text x="{TEXT_X}" y="{ly}" font-size="13.5" '
                     f'fill="{c["faint"]}">{escape(line)}</text>'
                 )
@@ -111,13 +127,11 @@ def build(theme_name):
         y = ly + 18
 
     height = y - 4
-    rail_top, rail_bottom = dots[0][0], dots[-1][0]
-
     head = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{height}" '
         f'viewBox="0 0 {W} {height}" font-family="{FONT}" role="img" '
         f'aria-label="Career timeline of Logan Li">',
-        f'<line x1="{RAIL_X}" y1="{rail_top}" x2="{RAIL_X}" y2="{rail_bottom}" '
+        f'<line x1="{RAIL_X}" y1="{dots[0][0]}" x2="{RAIL_X}" y2="{dots[-1][0]}" '
         f'stroke="{c["rail"]}" stroke-width="2"/>',
     ]
     for dot_y, pivot in dots:
@@ -127,12 +141,16 @@ def build(theme_name):
             f'stroke="{colour}" stroke-width="2.5"/>'
         )
 
-    return "\n".join(head + out + ["</svg>"]) + "\n"
+    return "\n".join(head + body + ["</svg>"]) + "\n"
 
+
+# ----------------------------------------------------------------------------- main
 
 target = Path(__file__).parent / "assets"
 target.mkdir(exist_ok=True)
-for name in THEMES:
-    path = target / f"timeline-{name}.svg"
-    path.write_text(build(name), encoding="utf-8")
-    print(f"wrote {path}")
+
+for name, colours in THEMES.items():
+    for stem, builder in (("header", build_header), ("timeline", build_timeline)):
+        path = target / f"{stem}-{name}.svg"
+        path.write_text(builder(colours), encoding="utf-8")
+        print(f"wrote {path}")
