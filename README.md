@@ -21,31 +21,13 @@
 
 I build **LLM and agent products end-to-end** — from the Rust backend and the latency budget all the way to the app someone actually talks to.
 
-```ts
-const experience = {
-  amazon: {
-    title:  "Software Engineer Intern",
-    when:   "Jan 2025 – Aug 2025",
-    built:  "AWS Strands + Bedrock agent that autonomously generates and " +
-            "debugs build configurations from requirement docs and CDK packages",
-    impact: "-50% configuration time · adopted as the team's standard tool",
-    also:   "Full-stack cost-estimation system (React, Spring) shipped into " +
-            "Amazon's internal release workflow — async processing, " +
-            "multi-level caching, DynamoDB, Lambda evaluation pipeline",
-  },
-  cesarLab: {
-    title:  "Machine Learning Research Assistant",
-    where:  "Northeastern CESAR Lab",
-    when:   "Jan 2026 – May 2026",
-    focus:  "LLM evaluation in Python",
-  },
-  priorLife: {
-    title:  "Product Manager — fintech / SaaS",
-    years:  7,
-    note:   "I still think in users, not just tickets",
-  },
-} as const;
-```
+## 💼 Experience
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/timeline-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/timeline-light.svg" />
+  <img src="assets/timeline-dark.svg" width="900" alt="Career timeline — Jan–May 2026: Northeastern CESAR Lab, Machine Learning Research Assistant, LLM evaluation in Python. Jan–Aug 2025: Amazon, Software Engineer Intern, built an AWS Strands and Bedrock agent that autonomously generates and debugs build configurations, cutting configuration time by 50%, and led a full-stack cost-estimation system into Amazon's internal release workflow. Sep 2023: Northeastern University, M.S. Computer Science, the career pivot. 2015–2022: fintech and SaaS Product Manager, 7 years." />
+</picture>
 
 ---
 

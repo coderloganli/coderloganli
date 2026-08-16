@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="610" viewBox="0 0 900 610" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Career timeline of Logan Li">
+<line x1="70" y1="34" x2="70" y2="500" stroke="#d1d9e0" stroke-width="2"/>
+<circle cx="70" cy="34" r="6.5" fill="none" stroke="#0969da" stroke-width="2.5"/>
+<circle cx="70" cy="156" r="6.5" fill="none" stroke="#0969da" stroke-width="2.5"/>
+<circle cx="70" cy="378" r="6.5" fill="none" stroke="#1a7f37" stroke-width="2.5"/>
+<circle cx="70" cy="500" r="6.5" fill="none" stroke="#0969da" stroke-width="2.5"/>
+<text x="104" y="38" font-size="11.5" font-weight="600" letter-spacing="1.2" fill="#0969da">JAN – MAY 2026</text>
+<text x="104" y="64" font-size="18.5" font-weight="700" fill="#1f2328">Northeastern CESAR Lab</text>
+<text x="104" y="85" font-size="13.5" fill="#59636e">Machine Learning Research Assistant</text>
+<text x="104" y="110" font-size="13.5" fill="#818b98">LLM evaluation in Python</text>
+<text x="104" y="160" font-size="11.5" font-weight="600" letter-spacing="1.2" fill="#0969da">JAN – AUG 2025</text>
+<text x="104" y="186" font-size="18.5" font-weight="700" fill="#1f2328">Amazon</text>
+<text x="104" y="207" font-size="13.5" fill="#59636e">Software Engineer Intern</text>
+<text x="104" y="232" font-size="13.5" fill="#818b98">Built an AWS Strands + Bedrock agent that autonomously generates and debugs build</text>
+<text x="104" y="252" font-size="13.5" fill="#818b98">configurations from requirement docs and CDK packages — cut configuration time by 50%,</text>
+<text x="104" y="272" font-size="13.5" fill="#818b98">adopted as the team&#x27;s standard tool</text>
+<text x="104" y="312" font-size="13.5" fill="#818b98">Led a full-stack cost-estimation system (React, Spring) into Amazon&#x27;s internal release</text>
+<text x="104" y="332" font-size="13.5" fill="#818b98">workflow — async processing, multi-level caching, DynamoDB, Lambda evaluation pipeline</text>
+<text x="104" y="382" font-size="11.5" font-weight="600" letter-spacing="1.2" fill="#1a7f37">SEP 2023</text>
+<text x="222" y="382" font-size="11.5" font-weight="600" letter-spacing="0.6" fill="#1a7f37">◆ CAREER PIVOT</text>
+<text x="104" y="408" font-size="18.5" font-weight="700" fill="#1f2328">Northeastern University</text>
+<text x="104" y="429" font-size="13.5" fill="#59636e">M.S. Computer Science · Boston</text>
+<text x="104" y="454" font-size="13.5" fill="#818b98">Left product management to build the thing instead of speccing it</text>
+<text x="104" y="504" font-size="11.5" font-weight="600" letter-spacing="1.2" fill="#0969da">2015 – 2022</text>
+<text x="104" y="530" font-size="18.5" font-weight="700" fill="#1f2328">Fintech / SaaS</text>
+<text x="104" y="551" font-size="13.5" fill="#59636e">Product Manager · 7 years</text>
+<text x="104" y="576" font-size="13.5" fill="#818b98">I still think in users, not just tickets</text>
+</svg>
