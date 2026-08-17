@@ -94,6 +94,13 @@ ENTRIES = [
         "lines": ["Prior to graduate study."],
         "pivot": False,
     },
+    {
+        "date": "SEP 2011 – AUG 2015",
+        "org": "Peking University",
+        "role": "B.S. in Psychology & B.S. in Economics · Beijing, China",
+        "lines": [],
+        "pivot": False,
+    },
 ]
 
 

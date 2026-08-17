@@ -1,9 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="670" viewBox="0 0 900 670" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Career timeline of Logan Li">
-<line x1="70" y1="34" x2="70" y2="560" stroke="#d1d9e0" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="772" viewBox="0 0 900 772" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Career timeline of Logan Li">
+<line x1="70" y1="34" x2="70" y2="682" stroke="#d1d9e0" stroke-width="2"/>
 <circle cx="70" cy="34" r="6.5" fill="none" stroke="#0969da" stroke-width="2.5"/>
 <circle cx="70" cy="196" r="6.5" fill="none" stroke="#0969da" stroke-width="2.5"/>
 <circle cx="70" cy="458" r="6.5" fill="none" stroke="#1a7f37" stroke-width="2.5"/>
 <circle cx="70" cy="560" r="6.5" fill="none" stroke="#0969da" stroke-width="2.5"/>
+<circle cx="70" cy="682" r="6.5" fill="none" stroke="#0969da" stroke-width="2.5"/>
 <text x="104" y="38" font-size="11.5" font-weight="600" letter-spacing="1.2" fill="#0969da">JAN – MAY 2026</text>
 <text x="104" y="64" font-size="18.5" font-weight="700" fill="#1f2328">Northeastern CESAR Lab</text>
 <text x="104" y="85" font-size="13.5" fill="#59636e">Machine Learning Research Assistant · Boston, USA</text>
@@ -28,4 +29,7 @@
 <text x="104" y="590" font-size="18.5" font-weight="700" fill="#1f2328">Fintech &amp; Enterprise SaaS</text>
 <text x="104" y="611" font-size="13.5" fill="#59636e">Product roles · 7 years</text>
 <text x="104" y="636" font-size="13.5" fill="#818b98">Prior to graduate study.</text>
+<text x="104" y="686" font-size="11.5" font-weight="600" letter-spacing="1.2" fill="#0969da">SEP 2011 – AUG 2015</text>
+<text x="104" y="712" font-size="18.5" font-weight="700" fill="#1f2328">Peking University</text>
+<text x="104" y="733" font-size="13.5" fill="#59636e">B.S. in Psychology &amp; B.S. in Economics · Beijing, China</text>
 </svg>

@@ -14,8 +14,8 @@
 ```
    ██╗      ██╗          logan@github
    ██║      ██║          ─────────────────────────────────────────────────────
-   ██║      ██║          Education : M.S. CS @ Northeastern · B.S. @ Peking Univ
    ██║      ██║          Status    : open to New Grad SWE / Applied AI  █
+   ██║      ██║
    ███████╗ ███████╗
    ╚══════╝ ╚══════╝     Languages : Python · TypeScript · Rust · Java · Go · Swift · SQL
                          AI / LLM  : RAG · LangChain · LLM Evaluation · Function Calling
@@ -29,7 +29,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/timeline-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="assets/timeline-light.svg" />
-  <img src="assets/timeline-dark.svg" width="900" alt="Career timeline — Jan–May 2026: Northeastern CESAR Lab, Machine Learning Research Assistant; built a three-stage pipeline (RTMPose, MotionBERT, HaMeR) that labels co-speech gestures in place of hand annotation, running 97 controlled experiments to choose each stage, and the winning 3D pose representation doubled segmentation F1. Jan–Aug 2025: Amazon, Software Engineer Intern; built an AI agent on LangChain and Bedrock that autonomously generates and debugs build configurations from requirement docs and CDK packages using task orchestration, context engineering, and a knowledge base (RAG), cutting configuration time by 50% and adopted as the team's standard tool; and designed the cost-estimation step in Amazon's internal robot-simulation platform (React, Spring, DynamoDB), back-tested against historical runs and held within 20% error. Sep 2023: Northeastern University, M.S. in Computer Science — the career pivot. 2015–2023: 7 years in product roles in fintech and enterprise SaaS." />
+  <img src="assets/timeline-dark.svg" width="900" alt="Career timeline — Jan–May 2026: Northeastern CESAR Lab, Machine Learning Research Assistant; built a three-stage pipeline (RTMPose, MotionBERT, HaMeR) that labels co-speech gestures in place of hand annotation, running 97 controlled experiments to choose each stage, and the winning 3D pose representation doubled segmentation F1. Jan–Aug 2025: Amazon, Software Engineer Intern; built an AI agent on LangChain and Bedrock that autonomously generates and debugs build configurations from requirement docs and CDK packages using task orchestration, context engineering, and a knowledge base (RAG), cutting configuration time by 50% and adopted as the team's standard tool; and designed the cost-estimation step in Amazon's internal robot-simulation platform (React, Spring, DynamoDB), back-tested against historical runs and held within 20% error. Sep 2023: Northeastern University, M.S. in Computer Science — the career pivot. 2015–2023: 7 years in product roles in fintech and enterprise SaaS. Sep 2011 – Aug 2015: Peking University, B.S. in Psychology and B.S. in Economics." />
 </picture>
 
 ---
