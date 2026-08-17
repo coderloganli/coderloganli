@@ -24,8 +24,6 @@
                          DevOps    : Docker · GitHub Actions · OpenTelemetry · pytest · k6
 ```
 
-I build **LLM and agent products end-to-end** — from the Rust backend and the latency budget all the way to the app someone actually talks to.
-
 ## 💼 Experience
 
 <picture>
