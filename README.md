@@ -100,11 +100,6 @@ Implemented as an **11-tool MCP server with 61 tests across Linux and Windows**.
 
 <div align="center">
 
-```console
-$ echo "Building something in voice AI, agents, or developer tooling?"
-$ mail coder_logan_li@outlook.com
-```
-
 <a href="mailto:coder_logan_li@outlook.com"><img src="https://img.shields.io/badge/coder__logan__li%40outlook.com-0ea5e9?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email" /></a>
 
 </div>
