@@ -29,7 +29,7 @@ THEMES = {
 # --------------------------------------------------------------------------- header
 
 HEADLINE = "Full-Stack AI Engineer"
-SUBLINE = "LLM / Agent Applications   ·   Shipping sub-2s voice agents"
+SUBLINE = "LLM / Agent Applications"
 
 
 def build_header(c):
@@ -56,36 +56,42 @@ ENTRIES = [
     {
         "date": "JAN – MAY 2026",
         "org": "Northeastern CESAR Lab",
-        "role": "Machine Learning Research Assistant",
-        "lines": ["LLM evaluation in Python"],
+        "role": "Machine Learning Research Assistant · Boston, USA",
+        "lines": [
+            "Built a three-stage pipeline (RTMPose, MotionBERT, HaMeR) that labels co-speech gestures",
+            "in place of hand annotation, running 97 controlled experiments to choose each stage; the",
+            "winning 3D pose representation doubled segmentation F1.",
+        ],
         "pivot": False,
     },
     {
         "date": "JAN – AUG 2025",
         "org": "Amazon",
-        "role": "Software Engineer Intern",
+        "role": "Software Engineer Intern · Boston, USA",
         "lines": [
-            "Built an AWS Strands + Bedrock agent that autonomously generates and debugs build",
-            "configurations from requirement docs and CDK packages — cut configuration time by 50%,",
-            "adopted as the team's standard tool",
+            "Built an AI agent on LangChain and Bedrock that autonomously generates and debugs build",
+            "configurations from requirement docs and CDK packages, using task orchestration, context",
+            "engineering, and a knowledge base (RAG); cut configuration time by 50% and was adopted",
+            "as the team's standard tool.",
             "",
-            "Led a full-stack cost-estimation system (React, Spring) into Amazon's internal release",
-            "workflow — async processing, multi-level caching, DynamoDB, Lambda evaluation pipeline",
+            "Designed and built the cost-estimation step in Amazon's internal robot-simulation platform",
+            "(React, Spring, DynamoDB), which every engineer passes through before running or releasing",
+            "a simulation; back-tested the estimator against historical runs and held its error within 20%.",
         ],
         "pivot": False,
     },
     {
         "date": "SEP 2023",
         "org": "Northeastern University",
-        "role": "M.S. Computer Science · Boston",
-        "lines": ["Left product management to build the thing instead of speccing it"],
+        "role": "M.S. in Computer Science · Boston, USA",
+        "lines": [],
         "pivot": True,
     },
     {
-        "date": "2015 – 2022",
-        "org": "Fintech / SaaS",
-        "role": "Product Manager · 7 years",
-        "lines": ["I still think in users, not just tickets"],
+        "date": "2015 – 2023",
+        "org": "Fintech & Enterprise SaaS",
+        "role": "Product roles · 7 years",
+        "lines": ["Prior to graduate study."],
         "pivot": False,
     },
 ]

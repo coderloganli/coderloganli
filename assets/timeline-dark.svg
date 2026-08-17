@@ -1,28 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="610" viewBox="0 0 900 610" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Career timeline of Logan Li">
-<line x1="70" y1="34" x2="70" y2="500" stroke="#30363d" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="670" viewBox="0 0 900 670" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Career timeline of Logan Li">
+<line x1="70" y1="34" x2="70" y2="560" stroke="#30363d" stroke-width="2"/>
 <circle cx="70" cy="34" r="6.5" fill="none" stroke="#58a6ff" stroke-width="2.5"/>
-<circle cx="70" cy="156" r="6.5" fill="none" stroke="#58a6ff" stroke-width="2.5"/>
-<circle cx="70" cy="378" r="6.5" fill="none" stroke="#3fb950" stroke-width="2.5"/>
-<circle cx="70" cy="500" r="6.5" fill="none" stroke="#58a6ff" stroke-width="2.5"/>
+<circle cx="70" cy="196" r="6.5" fill="none" stroke="#58a6ff" stroke-width="2.5"/>
+<circle cx="70" cy="458" r="6.5" fill="none" stroke="#3fb950" stroke-width="2.5"/>
+<circle cx="70" cy="560" r="6.5" fill="none" stroke="#58a6ff" stroke-width="2.5"/>
 <text x="104" y="38" font-size="11.5" font-weight="600" letter-spacing="1.2" fill="#58a6ff">JAN – MAY 2026</text>
 <text x="104" y="64" font-size="18.5" font-weight="700" fill="#e6edf3">Northeastern CESAR Lab</text>
-<text x="104" y="85" font-size="13.5" fill="#8b949e">Machine Learning Research Assistant</text>
-<text x="104" y="110" font-size="13.5" fill="#6e7681">LLM evaluation in Python</text>
-<text x="104" y="160" font-size="11.5" font-weight="600" letter-spacing="1.2" fill="#58a6ff">JAN – AUG 2025</text>
-<text x="104" y="186" font-size="18.5" font-weight="700" fill="#e6edf3">Amazon</text>
-<text x="104" y="207" font-size="13.5" fill="#8b949e">Software Engineer Intern</text>
-<text x="104" y="232" font-size="13.5" fill="#6e7681">Built an AWS Strands + Bedrock agent that autonomously generates and debugs build</text>
-<text x="104" y="252" font-size="13.5" fill="#6e7681">configurations from requirement docs and CDK packages — cut configuration time by 50%,</text>
-<text x="104" y="272" font-size="13.5" fill="#6e7681">adopted as the team&#x27;s standard tool</text>
-<text x="104" y="312" font-size="13.5" fill="#6e7681">Led a full-stack cost-estimation system (React, Spring) into Amazon&#x27;s internal release</text>
-<text x="104" y="332" font-size="13.5" fill="#6e7681">workflow — async processing, multi-level caching, DynamoDB, Lambda evaluation pipeline</text>
-<text x="104" y="382" font-size="11.5" font-weight="600" letter-spacing="1.2" fill="#3fb950">SEP 2023</text>
-<text x="222" y="382" font-size="11.5" font-weight="600" letter-spacing="0.6" fill="#3fb950">◆ CAREER PIVOT</text>
-<text x="104" y="408" font-size="18.5" font-weight="700" fill="#e6edf3">Northeastern University</text>
-<text x="104" y="429" font-size="13.5" fill="#8b949e">M.S. Computer Science · Boston</text>
-<text x="104" y="454" font-size="13.5" fill="#6e7681">Left product management to build the thing instead of speccing it</text>
-<text x="104" y="504" font-size="11.5" font-weight="600" letter-spacing="1.2" fill="#58a6ff">2015 – 2022</text>
-<text x="104" y="530" font-size="18.5" font-weight="700" fill="#e6edf3">Fintech / SaaS</text>
-<text x="104" y="551" font-size="13.5" fill="#8b949e">Product Manager · 7 years</text>
-<text x="104" y="576" font-size="13.5" fill="#6e7681">I still think in users, not just tickets</text>
+<text x="104" y="85" font-size="13.5" fill="#8b949e">Machine Learning Research Assistant · Boston, USA</text>
+<text x="104" y="110" font-size="13.5" fill="#6e7681">Built a three-stage pipeline (RTMPose, MotionBERT, HaMeR) that labels co-speech gestures</text>
+<text x="104" y="130" font-size="13.5" fill="#6e7681">in place of hand annotation, running 97 controlled experiments to choose each stage; the</text>
+<text x="104" y="150" font-size="13.5" fill="#6e7681">winning 3D pose representation doubled segmentation F1.</text>
+<text x="104" y="200" font-size="11.5" font-weight="600" letter-spacing="1.2" fill="#58a6ff">JAN – AUG 2025</text>
+<text x="104" y="226" font-size="18.5" font-weight="700" fill="#e6edf3">Amazon</text>
+<text x="104" y="247" font-size="13.5" fill="#8b949e">Software Engineer Intern · Boston, USA</text>
+<text x="104" y="272" font-size="13.5" fill="#6e7681">Built an AI agent on LangChain and Bedrock that autonomously generates and debugs build</text>
+<text x="104" y="292" font-size="13.5" fill="#6e7681">configurations from requirement docs and CDK packages, using task orchestration, context</text>
+<text x="104" y="312" font-size="13.5" fill="#6e7681">engineering, and a knowledge base (RAG); cut configuration time by 50% and was adopted</text>
+<text x="104" y="332" font-size="13.5" fill="#6e7681">as the team&#x27;s standard tool.</text>
+<text x="104" y="372" font-size="13.5" fill="#6e7681">Designed and built the cost-estimation step in Amazon&#x27;s internal robot-simulation platform</text>
+<text x="104" y="392" font-size="13.5" fill="#6e7681">(React, Spring, DynamoDB), which every engineer passes through before running or releasing</text>
+<text x="104" y="412" font-size="13.5" fill="#6e7681">a simulation; back-tested the estimator against historical runs and held its error within 20%.</text>
+<text x="104" y="462" font-size="11.5" font-weight="600" letter-spacing="1.2" fill="#3fb950">SEP 2023</text>
+<text x="222" y="462" font-size="11.5" font-weight="600" letter-spacing="0.6" fill="#3fb950">◆ CAREER PIVOT</text>
+<text x="104" y="488" font-size="18.5" font-weight="700" fill="#e6edf3">Northeastern University</text>
+<text x="104" y="509" font-size="13.5" fill="#8b949e">M.S. in Computer Science · Boston, USA</text>
+<text x="104" y="564" font-size="11.5" font-weight="600" letter-spacing="1.2" fill="#58a6ff">2015 – 2023</text>
+<text x="104" y="590" font-size="18.5" font-weight="700" fill="#e6edf3">Fintech &amp; Enterprise SaaS</text>
+<text x="104" y="611" font-size="13.5" fill="#8b949e">Product roles · 7 years</text>
+<text x="104" y="636" font-size="13.5" fill="#6e7681">Prior to graduate study.</text>
 </svg>
