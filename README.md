@@ -1,0 +1,105 @@
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg" />
+  <img src="assets/header-dark.svg" width="900" alt="Full-Stack AI Engineer — LLM / Agent Applications" />
+</picture>
+
+<img src="https://img.shields.io/badge/Open%20to-New%20Grad%20SWE%20%2F%20Applied%20AI-16a34a?style=for-the-badge" alt="Open to work" />
+<img src="https://img.shields.io/badge/Boston-US%20relocation%20OK-1e40af?style=for-the-badge" alt="Location" />
+
+</div>
+
+```
+   ██╗      ██╗          logan@github
+   ██║      ██║          ─────────────────────────────────────────────────────
+   ██║      ██║          Status    : open to New Grad SWE / Applied AI  █
+   ██║      ██║
+   ███████╗ ███████╗
+   ╚══════╝ ╚══════╝     Languages : Python · TypeScript · Rust · Java · Go · Swift · SQL
+                         AI / LLM  : RAG · LangChain · LLM Evaluation · Function Calling
+                         Frameworks: FastAPI · React · Spring · PostgreSQL · Redis · LiveKit
+                         Cloud     : AWS Bedrock · Lambda · S3 · DynamoDB · Step Functions
+                         DevOps    : Docker · GitHub Actions · OpenTelemetry · pytest · k6
+```
+
+## 💼 Experience
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/timeline-v2-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/timeline-v2-light.svg" />
+  <img src="assets/timeline-v2-dark.svg" width="900" alt="Career timeline — Ventures: Combrabo, Founding Engineer; built the iOS client and Rust backend with an agent memory system (short- and long-term recall) and a believable human personality, an evaluation set scoring every voice-path change, and cut end-to-end call latency to 1.2 s, piloted with prospective customers to purchase intent. Kleepay, Founding Engineer; built the entire React front end, the Rust marketing engine behind referral commission, cashback and new-user bonuses, and the agent payment MCP that lets any AI agent pay on the platform&#x27;s cards within an authorized scope. Jan–May 2026: Northeastern CESAR Lab, Machine Learning Research Assistant; built a three-stage pipeline (RTMPose, MotionBERT, HaMeR) that labels co-speech gestures in place of hand annotation, running 97 controlled experiments to choose each stage; the winning 3D pose representation doubled segmentation F1. Jan–Aug 2025: Amazon, Software Engineer; built a RAG-grounded AI agent on LangChain and Bedrock that writes and debugs build configurations, cutting configuration time by 50% and becoming the team&#x27;s standard tool, and the cost-estimation gate on Amazon&#x27;s robot-simulation platform (React, Spring, DynamoDB), holding estimate error within 20%. Sep 2023 – Aug 2026: Northeastern University, M.S. in Computer Science. Oct 2021 – Mar 2023: eSign, Software Engineer; RESTful e-signature APIs in Java Spring and customized signing workflows integrating third-party authentication and facial recognition. Dec 2019 – Oct 2021: EbidChain, Founding Engineer; a Hyperledger consortium blockchain notarizing public-resource transaction data, plus external RESTful APIs. Nov 2018 – Aug 2019: Wilmar, Senior Product Manager; a transportation management system across dozens of distribution centers, cutting dispatch turnaround 80%. Sep 2015 – Apr 2018: a fintech company, Product Manager; a consumer-lending app from 0 to 1 reaching thousands of daily active users. Sep 2011 – Aug 2015: Peking University, B.S. in Psychology and B.S. in Economics." />
+</picture>
+
+---
+
+## 🚀 Projects
+
+```console
+$ ls -1 ~/projects
+
+sonari/        # real-time voice AI companion · Rust + iOS · 0.95 s median turn
+dev-harness/   # guardrails for Claude Code · 11-tool MCP server · 61 tests
+gochat-scale/  # Go chat server capacity study · k6 · 7,500 req/s at 224 ms p95
+```
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🎙 [sonari](https://github.com/coderloganli/sonari)
+**Real-Time Voice AI Companion**
+
+- Built and shipped it as an iOS app on a Rust backend deployed to AWS, and piloted it with prospective customers to purchase intent
+- Cut end-to-end turn latency to a **0.95 s median and 1.2 s p95** by restructuring the real-time speech path
+- Built an eval harness of 16 adversarial clips that scores word error rate and eight latency markers to catch regressions
+
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-FA7343?style=flat-square&logo=swift&logoColor=white)
+![LiveKit](https://img.shields.io/badge/LiveKit%20%2F%20WebRTC-1e40af?style=flat-square&logo=webrtc&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=FF9900)
+
+</td>
+<td width="50%" valign="top">
+
+### 🛡 [dev-harness](https://github.com/coderloganli/dev-harness)
+**Guardrails for Claude Code**
+
+Built a plugin that enforces three independent controls on a project:
+
+- **Docs-as-code** — project documentation is curated, not drifting
+- **A ten-stage workflow** the agent may request but cannot advance
+- **An isolated per-task workspace**
+
+Implemented as an **11-tool MCP server with 61 tests across Linux and Windows**.
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP_Server-6d28d9?style=flat-square)
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### 📡 [gochat-scale](https://github.com/coderloganli/gochat-scale)
+**Scaling an Open-Source Go Chat Server**
+
+- Built a k6 step-ramp load-testing model that measures only each step's steady-state window
+- Used it to place a forked Go chat server's capacity ceiling at **1,500 virtual users sustaining 7,500 requests per second at 224 ms p95**
+
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![k6](https://img.shields.io/badge/k6-7D64FF?style=flat-square&logo=k6&logoColor=white)
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+<a href="mailto:coder_logan_li@outlook.com"><img src="https://img.shields.io/badge/coder__logan__li%40outlook.com-0ea5e9?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email" /></a>
+
+</div>

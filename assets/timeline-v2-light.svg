@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1782" viewBox="0 0 900 1782" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Career timeline of Logan Li">
+<line x1="70" y1="34" x2="70" y2="1692" stroke="#d1d9e0" stroke-width="2"/>
+<circle cx="70" cy="34" r="6.5" fill="none" stroke="#0969da" stroke-width="2.5"/>
+<circle cx="70" cy="236" r="6.5" fill="none" stroke="#0969da" stroke-width="2.5"/>
+<circle cx="70" cy="438" r="6.5" fill="none" stroke="#0969da" stroke-width="2.5"/>
+<circle cx="70" cy="600" r="6.5" fill="none" stroke="#0969da" stroke-width="2.5"/>
+<circle cx="70" cy="842" r="6.5" fill="none" stroke="#0969da" stroke-width="2.5"/>
+<circle cx="70" cy="944" r="6.5" fill="none" stroke="#0969da" stroke-width="2.5"/>
+<circle cx="70" cy="1166" r="6.5" fill="none" stroke="#0969da" stroke-width="2.5"/>
+<circle cx="70" cy="1388" r="6.5" fill="none" stroke="#0969da" stroke-width="2.5"/>
+<circle cx="70" cy="1550" r="6.5" fill="none" stroke="#0969da" stroke-width="2.5"/>
+<circle cx="70" cy="1692" r="6.5" fill="none" stroke="#0969da" stroke-width="2.5"/>
+<text x="104" y="38" font-size="11.5" font-weight="600" letter-spacing="1.2" fill="#0969da">VENTURE</text>
+<text x="104" y="64" font-size="18.5" font-weight="700" fill="#1f2328">Combrabo</text>
+<text x="104" y="85" font-size="13.5" fill="#59636e">Founding Engineer</text>
+<text x="104" y="110" font-size="13.5" fill="#818b98">Built the iOS client and Rust backend: an agent memory system with short- and long-term</text>
+<text x="104" y="130" font-size="13.5" fill="#818b98">recall, plus agent engineering that gives it a believable human personality.</text>
+<text x="104" y="170" font-size="13.5" fill="#818b98">Built an evaluation set that scores every change to the voice path, then cut end-to-end</text>
+<text x="104" y="190" font-size="13.5" fill="#818b98">call latency to 1.2 s; piloted with prospective customers to purchase intent.</text>
+<text x="104" y="240" font-size="11.5" font-weight="600" letter-spacing="1.2" fill="#0969da">VENTURE</text>
+<text x="104" y="266" font-size="18.5" font-weight="700" fill="#1f2328">Kleepay</text>
+<text x="104" y="287" font-size="13.5" fill="#59636e">Founding Engineer</text>
+<text x="104" y="312" font-size="13.5" fill="#818b98">Built the entire React front end and the Rust marketing engine behind referral commission,</text>
+<text x="104" y="332" font-size="13.5" fill="#818b98">cashback and new-user bonuses.</text>
+<text x="104" y="372" font-size="13.5" fill="#818b98">Built the agent payment MCP end to end, so any AI agent can complete a payment on the</text>
+<text x="104" y="392" font-size="13.5" fill="#818b98">platform&#x27;s cards within an authorized scope.</text>
+<text x="104" y="442" font-size="11.5" font-weight="600" letter-spacing="1.2" fill="#0969da">JAN – MAY 2026</text>
+<text x="104" y="468" font-size="18.5" font-weight="700" fill="#1f2328">Northeastern CESAR Lab</text>
+<text x="104" y="489" font-size="13.5" fill="#59636e">Machine Learning Research Assistant · Boston, USA</text>
+<text x="104" y="514" font-size="13.5" fill="#818b98">Built a three-stage pipeline (RTMPose, MotionBERT, HaMeR) that labels co-speech gestures</text>
+<text x="104" y="534" font-size="13.5" fill="#818b98">in place of hand annotation, running 97 controlled experiments to choose each stage; the</text>
+<text x="104" y="554" font-size="13.5" fill="#818b98">winning 3D pose representation doubled segmentation F1.</text>
+<text x="104" y="604" font-size="11.5" font-weight="600" letter-spacing="1.2" fill="#0969da">JAN – AUG 2025</text>
+<text x="104" y="630" font-size="18.5" font-weight="700" fill="#1f2328">Amazon</text>
+<text x="104" y="651" font-size="13.5" fill="#59636e">Software Engineer · USA</text>
+<text x="104" y="676" font-size="13.5" fill="#818b98">Built a RAG-grounded AI agent on LangChain and Bedrock that writes and debugs the build</text>
+<text x="104" y="696" font-size="13.5" fill="#818b98">configurations engineers used to write by hand; it cut configuration time by 50% and</text>
+<text x="104" y="716" font-size="13.5" fill="#818b98">became the team&#x27;s standard tool.</text>
+<text x="104" y="756" font-size="13.5" fill="#818b98">Built the cost-estimation gate every engineer passes through before running a simulation</text>
+<text x="104" y="776" font-size="13.5" fill="#818b98">on Amazon&#x27;s robot-simulation platform (React, Spring, DynamoDB), holding estimate error</text>
+<text x="104" y="796" font-size="13.5" fill="#818b98">within 20%.</text>
+<text x="104" y="846" font-size="11.5" font-weight="600" letter-spacing="1.2" fill="#0969da">SEP 2023 – AUG 2026</text>
+<text x="104" y="872" font-size="18.5" font-weight="700" fill="#1f2328">Northeastern University</text>
+<text x="104" y="893" font-size="13.5" fill="#59636e">M.S. in Computer Science · Boston, USA</text>
+<text x="104" y="948" font-size="11.5" font-weight="600" letter-spacing="1.2" fill="#0969da">OCT 2021 – MAR 2023</text>
+<text x="104" y="974" font-size="18.5" font-weight="700" fill="#1f2328">eSign</text>
+<text x="104" y="995" font-size="13.5" fill="#59636e">Software Engineer · China</text>
+<text x="104" y="1020" font-size="13.5" fill="#818b98">Designed and developed RESTful APIs for electronic signature services using Java Spring,</text>
+<text x="104" y="1040" font-size="13.5" fill="#818b98">and designed the relational database schemas and SQL tables behind core business workflows.</text>
+<text x="104" y="1080" font-size="13.5" fill="#818b98">Developed customized e-signature workflows to client requirements, integrating third-party</text>
+<text x="104" y="1100" font-size="13.5" fill="#818b98">authentication, facial recognition and external business systems so clients could adopt</text>
+<text x="104" y="1120" font-size="13.5" fill="#818b98">electronic signatures inside their existing applications.</text>
+<text x="104" y="1170" font-size="11.5" font-weight="600" letter-spacing="1.2" fill="#0969da">DEC 2019 – OCT 2021</text>
+<text x="104" y="1196" font-size="18.5" font-weight="700" fill="#1f2328">EbidChain</text>
+<text x="104" y="1217" font-size="13.5" fill="#59636e">Founding Engineer · China</text>
+<text x="104" y="1242" font-size="13.5" fill="#818b98">Designed and developed a consortium blockchain on Hyperledger to notarize public-resource</text>
+<text x="104" y="1262" font-size="13.5" fill="#818b98">transaction data, implementing on-chain submission, immutable record storage and</text>
+<text x="104" y="1282" font-size="13.5" fill="#818b98">blockchain-based verification.</text>
+<text x="104" y="1322" font-size="13.5" fill="#818b98">Designed and developed a suite of external RESTful APIs in Java and Spring, authored the</text>
+<text x="104" y="1342" font-size="13.5" fill="#818b98">API documentation, and supported client-side integration with external systems.</text>
+<text x="104" y="1392" font-size="11.5" font-weight="600" letter-spacing="1.2" fill="#0969da">NOV 2018 – AUG 2019</text>
+<text x="104" y="1418" font-size="18.5" font-weight="700" fill="#1f2328">Wilmar</text>
+<text x="104" y="1439" font-size="13.5" fill="#59636e">Senior Product Manager · China</text>
+<text x="104" y="1464" font-size="13.5" fill="#818b98">Owned a transportation management system covering dispatch, route planning, freight</text>
+<text x="104" y="1484" font-size="13.5" fill="#818b98">settlement and in-transit tracking across dozens of distribution centers; dispatch</text>
+<text x="104" y="1504" font-size="13.5" fill="#818b98">turnaround fell 80% versus manual.</text>
+<text x="104" y="1554" font-size="11.5" font-weight="600" letter-spacing="1.2" fill="#0969da">SEP 2015 – APR 2018</text>
+<text x="104" y="1580" font-size="18.5" font-weight="700" fill="#1f2328">A Fintech Company</text>
+<text x="104" y="1601" font-size="13.5" fill="#59636e">Product Manager · China</text>
+<text x="104" y="1626" font-size="13.5" fill="#818b98">Owned a consumer-lending app from 0 to 1 and built out its risk-review back office,</text>
+<text x="104" y="1646" font-size="13.5" fill="#818b98">reaching thousands of daily active users.</text>
+<text x="104" y="1696" font-size="11.5" font-weight="600" letter-spacing="1.2" fill="#0969da">SEP 2011 – AUG 2015</text>
+<text x="104" y="1722" font-size="18.5" font-weight="700" fill="#1f2328">Peking University</text>
+<text x="104" y="1743" font-size="13.5" fill="#59636e">B.S. in Psychology &amp; B.S. in Economics · Beijing, China</text>
+</svg>
